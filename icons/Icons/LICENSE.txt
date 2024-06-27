@@ -1,0 +1,75 @@
+.feed {
+    padding: 20px;
+    background-color: #1f1f27;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.post img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.post input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #3a3b3c;
+    color: #e4e6eb;
+}
+
+.post-options button {
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3a3b3c;
+    color: #e4e6eb;
+}
+
+.news-feed {
+    margin-top: 20px;
+}
+
+.news {
+    padding: 10px;
+    background-color: #242526;
+    border-radius: 10px;
+}
+
+.news h3 {
+    margin: 0 0 10px;
+}
+
+.news img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+  <div class="feed">
+            <div class="post">
+                <img src="./images/profile.png" alt="User Picture">
+                <input type="text" placeholder="What's on your mind, Eric?">
+                <p class="post-options">
+                    <img src="./images/Group 21.png" alt=""> <p>Live Video</p>
+                    <img src="./images/Vector (2).png" alt=""> <p>Photo/Video</p>
+                    <img src="./images/Vector (3).png" alt=""> <p>Feeling/Activity</p>
+                </div>
+            </div>
+            <div class="news-feed">
+                <div class="news">
+                    <h3>Indian Cricket Team</h3>
+                    <p>India has been touring Australia since 1947...</p>
+                    <img src="./images/image 12.png" alt="News Image">
+                </div>
+            </div>
+        </div>
